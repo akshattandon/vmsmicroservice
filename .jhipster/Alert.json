@@ -1,0 +1,35 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "alertfk",
+            "otherEntityName": "employee",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "employeeid"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "summary",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "details",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20190307042702",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "alert",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "vmsmicroservice",
+    "searchEngine": false
+}

@@ -1,0 +1,38 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "vistorfk",
+            "otherEntityName": "visitor",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "checkin",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "checkout",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20190307042507",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "visit",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "vmsmicroservice",
+    "searchEngine": false
+}
