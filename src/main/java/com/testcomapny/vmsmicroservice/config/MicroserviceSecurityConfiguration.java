@@ -1,8 +1,4 @@
-package com.wherescape.vmsmicroservice.config;
-
-import com.wherescape.vmsmicroservice.security.AuthoritiesConstants;
-import com.wherescape.vmsmicroservice.security.jwt.JWTConfigurer;
-import com.wherescape.vmsmicroservice.security.jwt.TokenProvider;
+package com.testcomapny.vmsmicroservice.config;
 
 import org.springframework.context.annotation.*;
 import org.springframework.http.HttpMethod;
@@ -14,6 +10,10 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.data.repository.query.SecurityEvaluationContextExtension;
 import org.zalando.problem.spring.web.advice.security.SecurityProblemSupport;
+
+import com.testcomapny.vmsmicroservice.security.AuthoritiesConstants;
+import com.testcomapny.vmsmicroservice.security.jwt.JWTConfigurer;
+import com.testcomapny.vmsmicroservice.security.jwt.TokenProvider;
 
 @Configuration
 @Import(SecurityProblemSupport.class)

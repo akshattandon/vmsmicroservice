@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.service.dto;
+package com.testcomapny.vmsmicroservice.service.dto;
 
 
 import java.time.LocalDate;

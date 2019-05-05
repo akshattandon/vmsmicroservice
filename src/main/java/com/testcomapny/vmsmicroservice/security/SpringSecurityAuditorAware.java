@@ -1,9 +1,9 @@
-package com.wherescape.vmsmicroservice.security;
-
-import com.wherescape.vmsmicroservice.config.Constants;
+package com.testcomapny.vmsmicroservice.security;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.stereotype.Component;
+
+import com.testcomapny.vmsmicroservice.config.Constants;
 
 /**
  * Implementation of AuditorAware based on Spring Security.

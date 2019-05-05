@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.domain.enumeration;
+package com.testcomapny.vmsmicroservice.domain.enumeration;
 
 /**
  * The Visittype enumeration.

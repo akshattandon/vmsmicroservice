@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.security;
+package com.testcomapny.vmsmicroservice.security;
 
 /**
  * Constants for Spring Security authorities.

@@ -1,11 +1,11 @@
-package com.wherescape.vmsmicroservice.config;
-
-import com.wherescape.vmsmicroservice.aop.logging.LoggingAspect;
+package com.testcomapny.vmsmicroservice.config;
 
 import io.github.jhipster.config.JHipsterConstants;
 
 import org.springframework.context.annotation.*;
 import org.springframework.core.env.Environment;
+
+import com.testcomapny.vmsmicroservice.aop.logging.LoggingAspect;
 
 @Configuration
 @EnableAspectJAutoProxy

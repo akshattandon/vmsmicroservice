@@ -1,7 +1,5 @@
 package com.wherescape.vmsmicroservice.web.rest;
 
-import com.wherescape.vmsmicroservice.VmsmicroserviceApp;
-import com.wherescape.vmsmicroservice.web.rest.vm.LoggerVM;
 import ch.qos.logback.classic.AsyncAppender;
 import ch.qos.logback.classic.LoggerContext;
 import org.junit.Before;
@@ -14,6 +12,10 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import com.testcomapny.vmsmicroservice.VmsmicroserviceApp;
+import com.testcomapny.vmsmicroservice.web.rest.LogsResource;
+import com.testcomapny.vmsmicroservice.web.rest.vm.LoggerVM;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

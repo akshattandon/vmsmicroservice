@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.config;
+package com.testcomapny.vmsmicroservice.config;
 
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module;
 import com.fasterxml.jackson.module.afterburner.AfterburnerModule;

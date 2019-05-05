@@ -1,8 +1,9 @@
-package com.wherescape.vmsmicroservice;
+package com.testcomapny.vmsmicroservice;
 
-import com.wherescape.vmsmicroservice.config.DefaultProfileUtil;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+
+import com.testcomapny.vmsmicroservice.config.DefaultProfileUtil;
 
 /**
  * This is a helper Java class that provides an alternative to creating a web.xml.

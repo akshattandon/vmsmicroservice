@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.web.rest.errors;
+package com.testcomapny.vmsmicroservice.web.rest.errors;
 
 import java.io.Serializable;
 

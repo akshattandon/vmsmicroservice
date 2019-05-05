@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.config;
+package com.testcomapny.vmsmicroservice.config;
 
 import org.apache.commons.lang3.CharEncoding;
 import org.slf4j.Logger;

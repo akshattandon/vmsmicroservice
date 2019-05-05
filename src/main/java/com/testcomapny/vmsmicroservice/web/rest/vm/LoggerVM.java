@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.web.rest.vm;
+package com.testcomapny.vmsmicroservice.web.rest.vm;
 
 import ch.qos.logback.classic.Logger;
 

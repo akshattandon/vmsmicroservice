@@ -1,4 +1,4 @@
 /**
  * Spring MVC REST controllers.
  */
-package com.wherescape.vmsmicroservice.web.rest;
+package com.testcomapny.vmsmicroservice.web.rest;

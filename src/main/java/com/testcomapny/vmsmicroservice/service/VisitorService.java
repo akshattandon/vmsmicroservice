@@ -1,7 +1,8 @@
-package com.wherescape.vmsmicroservice.service;
+package com.testcomapny.vmsmicroservice.service;
 
-import com.wherescape.vmsmicroservice.service.dto.VisitorDTO;
 import java.util.List;
+
+import com.testcomapny.vmsmicroservice.service.dto.VisitorDTO;
 
 /**
  * Service Interface for managing Visitor.

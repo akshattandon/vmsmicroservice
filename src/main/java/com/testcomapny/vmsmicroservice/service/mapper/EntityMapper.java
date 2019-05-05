@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.service.mapper;
+package com.testcomapny.vmsmicroservice.service.mapper;
 
 import java.util.List;
 

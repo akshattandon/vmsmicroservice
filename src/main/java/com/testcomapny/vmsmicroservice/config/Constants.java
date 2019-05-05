@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.config;
+package com.testcomapny.vmsmicroservice.config;
 
 /**
  * Application constants.

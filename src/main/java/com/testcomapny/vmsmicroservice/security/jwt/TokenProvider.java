@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.security.jwt;
+package com.testcomapny.vmsmicroservice.security.jwt;
 
 import io.github.jhipster.config.JHipsterProperties;
 

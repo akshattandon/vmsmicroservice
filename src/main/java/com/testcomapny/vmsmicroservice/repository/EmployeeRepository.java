@@ -1,7 +1,8 @@
-package com.wherescape.vmsmicroservice.repository;
+package com.testcomapny.vmsmicroservice.repository;
 
-import com.wherescape.vmsmicroservice.domain.Employee;
 import org.springframework.stereotype.Repository;
+
+import com.testcomapny.vmsmicroservice.domain.Employee;
 
 import org.springframework.data.jpa.repository.*;
 

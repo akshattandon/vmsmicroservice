@@ -1,10 +1,10 @@
-package com.wherescape.vmsmicroservice.config.audit;
-
-import com.wherescape.vmsmicroservice.domain.PersistentAuditEvent;
+package com.testcomapny.vmsmicroservice.config.audit;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;
 import org.springframework.stereotype.Component;
+
+import com.testcomapny.vmsmicroservice.domain.PersistentAuditEvent;
 
 import java.util.*;
 

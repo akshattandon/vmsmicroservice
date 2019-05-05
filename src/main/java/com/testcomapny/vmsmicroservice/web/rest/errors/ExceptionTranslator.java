@@ -1,6 +1,4 @@
-package com.wherescape.vmsmicroservice.web.rest.errors;
-
-import com.wherescape.vmsmicroservice.web.rest.util.HeaderUtil;
+package com.testcomapny.vmsmicroservice.web.rest.errors;
 
 import org.springframework.dao.ConcurrencyFailureException;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +13,8 @@ import org.zalando.problem.ProblemBuilder;
 import org.zalando.problem.Status;
 import org.zalando.problem.spring.web.advice.ProblemHandling;
 import org.zalando.problem.spring.web.advice.validation.ConstraintViolationProblem;
+
+import com.testcomapny.vmsmicroservice.web.rest.util.HeaderUtil;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

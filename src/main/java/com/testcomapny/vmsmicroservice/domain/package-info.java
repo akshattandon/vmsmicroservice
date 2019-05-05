@@ -1,4 +1,4 @@
 /**
  * JPA domain objects.
  */
-package com.wherescape.vmsmicroservice.domain;
+package com.testcomapny.vmsmicroservice.domain;

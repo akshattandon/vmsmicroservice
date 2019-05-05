@@ -1,9 +1,9 @@
-package com.wherescape.vmsmicroservice.service.mapper;
-
-import com.wherescape.vmsmicroservice.domain.*;
-import com.wherescape.vmsmicroservice.service.dto.EmployeeDTO;
+package com.testcomapny.vmsmicroservice.service.mapper;
 
 import org.mapstruct.*;
+
+import com.testcomapny.vmsmicroservice.domain.*;
+import com.testcomapny.vmsmicroservice.service.dto.EmployeeDTO;
 
 /**
  * Mapper for the entity Employee and its DTO EmployeeDTO.

@@ -1,10 +1,10 @@
 package com.wherescape.vmsmicroservice.cucumber.stepdefs;
 
-import com.wherescape.vmsmicroservice.VmsmicroserviceApp;
-
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.ResultActions;
+
+import com.testcomapny.vmsmicroservice.VmsmicroserviceApp;
 
 import org.springframework.boot.test.context.SpringBootTest;
 

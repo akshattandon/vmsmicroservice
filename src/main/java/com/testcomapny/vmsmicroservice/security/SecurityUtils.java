@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.security;
+package com.testcomapny.vmsmicroservice.security;
 
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;

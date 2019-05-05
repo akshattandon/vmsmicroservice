@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.web.rest.util;
+package com.testcomapny.vmsmicroservice.web.rest.util;
 
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpHeaders;

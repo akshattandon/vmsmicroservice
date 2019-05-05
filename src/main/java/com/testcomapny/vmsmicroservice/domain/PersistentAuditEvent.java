@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.domain;
+package com.testcomapny.vmsmicroservice.domain;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

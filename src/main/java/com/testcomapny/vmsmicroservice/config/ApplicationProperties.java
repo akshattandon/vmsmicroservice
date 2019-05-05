@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.config;
+package com.testcomapny.vmsmicroservice.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

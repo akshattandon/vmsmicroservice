@@ -1,4 +1,4 @@
 /**
  * Service layer beans.
  */
-package com.wherescape.vmsmicroservice.service;
+package com.testcomapny.vmsmicroservice.service;

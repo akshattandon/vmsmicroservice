@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.config;
+package com.testcomapny.vmsmicroservice.config;
 
 import java.net.InetSocketAddress;
 import java.util.Iterator;

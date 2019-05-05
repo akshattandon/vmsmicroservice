@@ -1,11 +1,11 @@
-package com.wherescape.vmsmicroservice.web.rest;
-
-import com.wherescape.vmsmicroservice.config.DefaultProfileUtil;
+package com.testcomapny.vmsmicroservice.web.rest;
 
 import io.github.jhipster.config.JHipsterProperties;
 
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.*;
+
+import com.testcomapny.vmsmicroservice.config.DefaultProfileUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;

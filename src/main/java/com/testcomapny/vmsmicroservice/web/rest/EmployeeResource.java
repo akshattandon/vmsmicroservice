@@ -1,10 +1,11 @@
-package com.wherescape.vmsmicroservice.web.rest;
+package com.testcomapny.vmsmicroservice.web.rest;
 
 import com.codahale.metrics.annotation.Timed;
-import com.wherescape.vmsmicroservice.service.EmployeeService;
-import com.wherescape.vmsmicroservice.web.rest.errors.BadRequestAlertException;
-import com.wherescape.vmsmicroservice.web.rest.util.HeaderUtil;
-import com.wherescape.vmsmicroservice.service.dto.EmployeeDTO;
+import com.testcomapny.vmsmicroservice.service.EmployeeService;
+import com.testcomapny.vmsmicroservice.service.dto.EmployeeDTO;
+import com.testcomapny.vmsmicroservice.web.rest.errors.BadRequestAlertException;
+import com.testcomapny.vmsmicroservice.web.rest.util.HeaderUtil;
+
 import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

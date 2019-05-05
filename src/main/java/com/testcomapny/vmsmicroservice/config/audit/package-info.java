@@ -1,4 +1,4 @@
 /**
  * Audit specific code.
  */
-package com.wherescape.vmsmicroservice.config.audit;
+package com.testcomapny.vmsmicroservice.config.audit;

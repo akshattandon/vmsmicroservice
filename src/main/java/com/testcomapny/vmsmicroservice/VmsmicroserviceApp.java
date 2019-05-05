@@ -1,7 +1,4 @@
-package com.wherescape.vmsmicroservice;
-
-import com.wherescape.vmsmicroservice.config.ApplicationProperties;
-import com.wherescape.vmsmicroservice.config.DefaultProfileUtil;
+package com.testcomapny.vmsmicroservice;
 
 import io.github.jhipster.config.JHipsterConstants;
 
@@ -15,6 +12,9 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
+
+import com.testcomapny.vmsmicroservice.config.ApplicationProperties;
+import com.testcomapny.vmsmicroservice.config.DefaultProfileUtil;
 
 import javax.annotation.PostConstruct;
 import java.net.InetAddress;

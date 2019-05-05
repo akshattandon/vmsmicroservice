@@ -1,7 +1,8 @@
-package com.wherescape.vmsmicroservice.service;
+package com.testcomapny.vmsmicroservice.service;
 
-import com.wherescape.vmsmicroservice.service.dto.EmployeeDTO;
 import java.util.List;
+
+import com.testcomapny.vmsmicroservice.service.dto.EmployeeDTO;
 
 /**
  * Service Interface for managing Employee.

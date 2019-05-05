@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.aop.logging;
+package com.testcomapny.vmsmicroservice.aop.logging;
 
 import io.github.jhipster.config.JHipsterConstants;
 

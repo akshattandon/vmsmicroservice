@@ -1,4 +1,4 @@
-package com.wherescape.vmsmicroservice.web.rest.errors;
+package com.testcomapny.vmsmicroservice.web.rest.errors;
 
 import org.zalando.problem.AbstractThrowableProblem;
 import org.zalando.problem.Status;

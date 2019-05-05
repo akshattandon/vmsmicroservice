@@ -1,6 +1,5 @@
 package com.wherescape.vmsmicroservice.web.rest.errors;
 
-import com.wherescape.vmsmicroservice.VmsmicroserviceApp;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,6 +11,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.zalando.problem.spring.web.advice.MediaTypes;
+
+import com.testcomapny.vmsmicroservice.VmsmicroserviceApp;
+import com.testcomapny.vmsmicroservice.web.rest.errors.ErrorConstants;
+import com.testcomapny.vmsmicroservice.web.rest.errors.ExceptionTranslator;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;

@@ -1,14 +1,5 @@
 package com.wherescape.vmsmicroservice.web.rest;
 
-import com.wherescape.vmsmicroservice.VmsmicroserviceApp;
-
-import com.wherescape.vmsmicroservice.domain.Employee;
-import com.wherescape.vmsmicroservice.repository.EmployeeRepository;
-import com.wherescape.vmsmicroservice.service.EmployeeService;
-import com.wherescape.vmsmicroservice.service.dto.EmployeeDTO;
-import com.wherescape.vmsmicroservice.service.mapper.EmployeeMapper;
-import com.wherescape.vmsmicroservice.web.rest.errors.ExceptionTranslator;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,6 +13,15 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.testcomapny.vmsmicroservice.VmsmicroserviceApp;
+import com.testcomapny.vmsmicroservice.domain.Employee;
+import com.testcomapny.vmsmicroservice.repository.EmployeeRepository;
+import com.testcomapny.vmsmicroservice.service.EmployeeService;
+import com.testcomapny.vmsmicroservice.service.dto.EmployeeDTO;
+import com.testcomapny.vmsmicroservice.service.mapper.EmployeeMapper;
+import com.testcomapny.vmsmicroservice.web.rest.EmployeeResource;
+import com.testcomapny.vmsmicroservice.web.rest.errors.ExceptionTranslator;
 
 import javax.persistence.EntityManager;
 import java.util.List;
