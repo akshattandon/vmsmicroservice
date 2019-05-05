@@ -36,6 +36,7 @@
     ],
     "clientPackageManager": "yarn",
     "skipClient": true,
-    "skipUserManagement": true
+    "skipUserManagement": true,
+    "enableHibernateCache": false
   }
 }
